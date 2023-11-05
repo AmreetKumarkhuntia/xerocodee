@@ -29,3 +29,5 @@ export const GroupImage: string = "https://res.cloudinary.com/dke9xzbl6/image/up
 export const Mail: string = "https://res.cloudinary.com/dke9xzbl6/image/upload/v1699141638/XeroCodee/mail_fmme7i.svg";
 
 export const PaperPlane: string = "https://res.cloudinary.com/dke9xzbl6/image/upload/v1699185470/XeroCodee/Paper_Plane_wr3nut.svg";
+
+export const Comma: string = "https://res.cloudinary.com/dke9xzbl6/image/upload/v1699202978/XeroCodee/inverted_comma_jlzgkk.svg";

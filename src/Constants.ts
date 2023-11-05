@@ -1,4 +1,4 @@
-import { FeatureType, AdvantageType, LinksType } from "@/Types";
+import { FeatureType, AdvantageType, LinksType, StoriesType } from "@/Types";
 
 export const Features: Array<FeatureType> = [
     {
@@ -153,4 +153,31 @@ export const OtherLinks: Array<LinksType> = [
         name: "Support",
         url: ""
     },
+]
+
+export const AllStories: Array<StoriesType> = [
+    {
+        name: "Abcdefgh Ijklmnop",
+        role: "Frontend Engineer",
+        text: `There are many variations of passages of Lorem Ipsum available
+        but the majority have sufferg alteration in some form, by injected humour, or randomised
+        words which don't look even slightly believable. If you are going to use a passage.`,
+        url: ""
+    },
+    {
+        name: "Abcdefgh Ijklmnopsds",
+        role: "Frontend Engineer",
+        text: `There are many variations of passages of Lorem Ipsum available
+        but the majority have sufferg alteration in some form, by injected humour, or randomised
+        words which don't look even slightly believable. If you are going to use a passage.`,
+        url: ""
+    },
+    {
+        name: "Abcdefgh Ijklmnosdsdp",
+        role: "Backend Engineer",
+        text: `There are many variations of passages of Lorem Ipsum available
+        but the majority have sufferg alteration in some form, by injected humour, or randomised
+        words which don't look even slightly believable. If you are going to use a passage.`,
+        url: ""
+    }
 ]

@@ -4,7 +4,7 @@ const Logo: string = "https://res.cloudinary.com/dke9xzbl6/image/upload/v1698699
 
 const Navbar = () => {
     return (
-        <div className="fixed w-screen">
+        <div className="fixed w-screen z-10">
             <div className="bg-white
                 w-navW h-navH mx-auto my-6
                 flex items-center justify-evenly
