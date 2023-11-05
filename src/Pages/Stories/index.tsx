@@ -9,12 +9,12 @@ const Stories = () => {
     const [currentStory, setCurrentStory] = useState<number>(0);
 
     const handleLeft = () => {
-        setCurrentStory((currentStory - 1))
-        if (currentStory < 0) setCurrentStory(AllStories.length - 1)
+        if (currentStory - 1 < 0) setCurrentStory(AllStories.length - 1);
+        else setCurrentStory(currentStory - 1);
     }
 
     const handleRight = () => {
-        setCurrentStory((currentStory + 1) % AllStories.length)
+        setCurrentStory((currentStory + 1) % AllStories.length);
     }
 
     return (
