@@ -6,15 +6,31 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+  theme:{
+    extend:{
+      fontFamily: {
+          'poppins':['Poppins'],
       },
-    },
+      spacing:{
+        'navW':'80vw',
+        'navH':'10vh',
+      },
+      animation:{
+        'animationWidth':'animationWidth 0.15s linear'
+      },
+      keyframes:{
+        animationWidth:{
+          '0%':{
+            width: '0%'
+          },
+          '100%':{
+            width: '100%'
+          }
+        }
+      }
+    }
   },
   plugins: [],
 }
+
 export default config
